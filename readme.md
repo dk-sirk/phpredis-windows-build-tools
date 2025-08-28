@@ -13,7 +13,7 @@ Links:
 
 - Visual Studio ( https://visualstudio.microsoft.com/downloads ) Download Community Edition
 - PHP SDK ( https://github.com/php/php-sdk-binary-tools ) Download source code ZIP
-- PHP Source ( https://windows.php.net/download ) Download source code ZIP
+- PHP Source ( https://windows.php.net/download ) Download source code ZIP and Development package
 - PhpRedis Source ( https://github.com/phpredis/phpredis ) Download source code ZIP
 
 # Prepare 
@@ -23,6 +23,7 @@ Links:
 - Extract SDKs and sources to specified folder, excluding the first level directory if exist:
   - PHP SDK -> `{build}\php-sdk`
   - PHP Source -> `{build}\php-src`
+  - PHP Development package -> `{build}\php-devel-pack`
   - PhpRedis Source -> `{build}\php-src\ext\redis`
 - **Edit `{build}\_config.bat` !!!** Specify the correct parameters: VC_TOOLS_PATH, WIN_SDK_PATH, WIN_SDK_VERSION, PHP_NTS
 
